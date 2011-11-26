@@ -1,6 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
     <!-- Type the title of your site here -->
     <title>The Dice Tower</title>
@@ -20,6 +19,11 @@
 <body>
 
 <div id="pagewrapper">
+	<!-- Start Header, with logo image that links to the default start page -->
+    <div id="header" class="clearfix">
+        <h1><a href="http://www.dicetower.com/" title="Home Page, shortcut key=1" >Home</a></h1>
+    </div>
+    <!-- End Header -->
     <div id="container">
 
         <!-- start accessibility skip links -->
@@ -31,12 +35,7 @@
 
         <hr />
 
-        <!-- Start Header, with logo image that links to the default start page -->
-        <div id="header" class="clearfix">
-            <h1><a href="http://www.dicetower.com/" title="Home Page, shortcut key=1" >Home</a></h1>
-            <hr />
-        </div>
-        <!-- End Header -->
+        
 
         <!-- Start Horizontal Navigation -->
         <div id="menu_horiz">

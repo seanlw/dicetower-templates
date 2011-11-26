@@ -3,39 +3,45 @@
 
 /* SITE SPECIFIC LAYOUT */
     body {
-        background:  url(uploads/images/dice2.gif) ;
+        background:  url('/images/dicetower-background.png') repeat-x;
+		background-position: center 0px;
         margin: 0;
-        padding: 1em;
+        padding: 0;
         text-align: center;
     }
     div#pagewrapper {
 
         margin: 0 auto;
-        width: 968px;
+        width: 960px;
         min-width: 60em;
         padding: 0;
         text-align: left;
     }
     #container {
-    position: relative;
-    margin: 2;
+    	position: left;
+    	margin: 2;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-box-shadow: 0 0 5px #202020;
+		-moz-box-shadow: 0 0 5px #202020;
+		box-shadow: 0 0 5px #202020;
     }
 
     /* HEADER */
         div#header {
-            margin: 1;
-            padding: 4;
-            height: 207px;
-            background: #ffffff;
+            margin: 0;
+            padding: 0;
+            height: 197px;
             text-align: center;
         }
         div#header h1 a {
             background:  url(/images/DiceTowerHeader02.png) no-repeat 0 0px;
-            background-position: 4px 2px;
+            background-position: 0px 0px;
             display: block;
-            height: 199px;
+            height: 197px;
             text-indent: -700em;
-            width: 968px;
+            width: 960px;
             margin: 0;
             padding: 0;
             text-decoration:none;

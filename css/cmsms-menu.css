@@ -7,9 +7,18 @@
 
 #menuwrapper {
         overflow: hidden;
+		float: left;
         background-color: #ECECEC;
         border-bottom: 1px solid #C0C0C0;
-        width: 100%;
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ECECEC),color-stop(1,#B7B7B7));
+		background-image: -moz-linear-gradient(top,#ECECEC,#B7B7B7);
+        width: 960px;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
         }
 
 /* Set the width of the menu elements at second level. Leaving first level flexible. */
@@ -63,16 +72,25 @@
     border-left: 1px solid #C0C0C0;
     }
 #primary-nav li li a {
-    border: 1px solid #C0C0C0;
+    border: 1px solid #8A8A8A;
     }
-#primary-nav li, #primary-nav li.menuparent {
-    background-color: #ececec;
+
+#primary-nav li ul li{
+	background-color: #FBFBFB;
+}
+#primary-nav li.menuparent a span {
+	text-shadow: 0 -1px 0 #ECECEC;
     }
+
+#primary-nav li.menuparent ul li a span{
+	text-shadow: none;
+}
+
 
 /* Styling the basic apperance of the active page elements (shows what page in the menu is being displayed) */
 
 #primary-nav li.menuactive {
-    background-color: #C7C7C7;
+    background-color: #ECECEC;
     }
 
 
@@ -88,7 +106,8 @@
 /* Styling the apperance of menu items on hover */
 
 #primary-nav li:hover, #primary-nav li.menuh, #primary-nav li.menuparenth, #primary-nav li.menuactiveh {
-    background-color: #E7AB0B;
+    background-color: #F7E718;
+	text-shadow: none;
     }
 
 

@@ -1,22 +1,22 @@
 /* Start of CMSMS style sheet 'Colours' */
 /* Layout sections */
     body {
-        background: #ccc;
+        background-color: #73a0b8;
         color: #333;
         }
 
     div#pagewrapper {
-        border: 1px solid #000;
-        background: #fff;
-        }
-
+        
+    }
+	div#container{
+		background-color: #fff;
+	}
     div#header {
         color: #fff;
         }
 
     div#footer {
         color: #fff;
-        background-color: #385C72;
 
 
         }

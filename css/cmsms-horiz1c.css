@@ -13,8 +13,15 @@
 
     }
     div#menu_horiz {
-        width: 100%;
+        width: 960px;
+		float: left;
         text-align: left;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
     }
 
 /* END CONTENT */
