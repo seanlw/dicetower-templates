@@ -85,7 +85,48 @@
     /* END FOOTER */
 /* END LAYOUT */
 
+ul#review-az-list{
+	list-style: none;
+	width: 676px;
+	margin: 0 122px 20px 122px !important;
+	padding: 0 !important;
+	float: left;
+	background-color: #737373;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top: 1px solid #4A4A4A;
+	border-left: 1px solid #A4A4A4;
+	border-bottom: 1px solid #A4A4A4;
+	border-right: 1px solid #A4A4A4;}
+	ul#review-az-list li{
+		margin: 0 !important;
+		padding: 5px 0px !important;
+		width: 25px;
+		float: left;
+		text-align: center;}
+		ul#review-az-list li a{
+			color: #FAFAFA;
+			font-weight: bold;
+			text-shadow: 0 -1px 0 #393939;}
+			
+.big-h2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: #222222;}
 
+#review-list{
+	width: 920px;
+	border-collapse: collapse;}
+	#review-list thead tr{
+		background-color: #CCE;}
+		#review-list thead tr th{
+			padding: 5px;
+			text-shadow: 0 1px 0 #E4E9FF;}
 
 div.breadcrumbs {
    padding: 1em 0;

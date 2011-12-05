@@ -4,9 +4,9 @@
 
 /* NAV BAR AT THE TOP AND ONE COLUMN OF CONTENT */
     div#content {
-        width: 96%;
+        width: 920px;
         margin: 0;
-        padding: 1em 2%;
+        padding: 23px 20px;
         text-align: left;
     }
     div#main {
